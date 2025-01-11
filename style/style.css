@@ -72,3 +72,37 @@ color: #FFFFFF;
 padding: 17px 34px 17px 34px;
 }
 
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 32px;
+    background-color:#5490F533;
+    /* margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px; */
+    justify-content: space-between;
+    
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.skill-description{
+font-size: 16px;
+font-weight: 400;
+}
+.more{ 
+ border-radius: 8px;
+background: rgb(84, 144, 245);
+text-decoration: none;
+padding: 11px 20px 11px 20px;
+font-size: 16px;
+font-weight: 600;
+
+}
+
