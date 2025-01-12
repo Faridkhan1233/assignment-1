@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     background: rgb(245, 245, 245);
 }
-main{
+
+main {
     margin-top: 80px;
 }
 
@@ -13,7 +14,7 @@ height: 100px;
 margin: 80px;
 } */
 
-header{
+header {
     border-radius: 24px;
     background: rgb(198, 228, 214);
     /* width: 1280px;
@@ -25,113 +26,125 @@ header{
     margin-top: 20px;
 
 
-    
 
-    
-    
+
+
+
 }
 
 
 /* banner styles */
-.banner{
-  
+.banner {
+
     display: flex;
     justify-content: space-between;
     /* margin: 0 59px; */
-  
-    
-    
-    
+
+
+
+
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 24px;
     font-weight: 500;
 }
-.banner-title{
+
+.banner-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
     /* margin: 16px 0px; */
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 474.03px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 622px;
 }
 
 
 /* shared style */
-.btn-primary{
+.btn-primary {
     border-radius: 8px;
 
-background: rgb(0, 106, 80);
-font-weight: 600;
-font-size: 18px;
-color: #FFFFFF;
-padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 17px 34px 17px 34px;
 }
 
 
 /* skills section styles */
-.skills-container{ 
+.skills-container {
     display: flex;
-   justify-content: space-around;
-   gap: 25px;
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
-   
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
-.skill{
+
+.skill {
     padding: 32px;
-    background-color:#5490F533;
+    background-color: #5490F533;
     /* margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px; */
     justify-content: space-between;
     border-radius: 16px;
-    
+
 }
-.skill-title{
+
+.skill-title {
     font-size: 20px;
     font-weight: 600;
-    
-}
-.skill-description{
-font-size: 16px;
-font-weight: 400;
 
 }
-.more{ 
- border-radius: 8px;
-background: rgb(84, 144, 245);
-text-decoration: none;
-padding: 11px 20px 11px 20px;
-font-size: 16px;
-font-weight: 600;
+
+.skill-description {
+    font-size: 16px;
+    font-weight: 400;
 
 }
-.section-title{
+
+.more {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    text-decoration: none;
+    padding: 11px 20px 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.section-title {
     margin-left: 20px;
 }
-.section-description{
+
+.section-description {
     margin-left: 20px;
 }
-.color-1{
+
+.color-1 {
     background: rgb(9, 161, 92);
 }
-.color-2{
+
+.color-2 {
     background: rgb(255, 194, 57);
 }
+
 /* news section style */
 
-.news{
+.news {
     margin-top: 80px;
 }
-.news-container{
+
+.news-container {
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -144,61 +157,164 @@ font-weight: 600;
     height: 300px;
 
 }
-.from{
-    
+
+.from {
+
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.news-title{
+
+.news-title {
     margin-left: 20px;
 }
-.news-discription{
+
+.news-discription {
     margin-left: 20px;
 }
-.news-container{
+
+.news-container {
     border-radius: 24px;
 
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 
 }
-.news-cd{
+
+.news-cd {
     padding-top: 20px;
 }
-.satelite{
+
+.satelite {
     border-radius: 24px;
 
-background: url(image);
-position: static;
-width: 408px;
-height: 306px;
-margin: 0px 32px;
-margin-top: 40px;
+    background: url(image);
+    position: static;
+    width: 408px;
+    height: 306px;
+    margin: 0px 32px;
+    margin-top: 40px;
 }
-.div-1{
+
+.div-1 {
     font-size: 23px;
     font-weight: 700px;
     gap: 12px;
-    
+
 
 
 
 
 }
-.al-jazeera{
-  
-}
-.news-kb{
+
+.al-jazeera {}
+
+.news-kb {
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
+/* Donate style */
+.donate-hed {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-discription {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-containar {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+    border-radius: 16px;
+
+
+}
+
+.box-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    width: 243px;
+    height: 128px;
+}
+
+.box-1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.box-1 p {
+    margin-top: 45px;
+
+}
+
+.box-1:hover {
+    color: aqua;
+}
+
+.d-name {
+    display: flex;
+    align-items: center;
+}
+
+
+/* btn  */
+
+.d-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.d-name button {
+
+
+
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 17px 34px 17px 34px;
+}
+
+
+.d-name button:hover {
+    background-color: green;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.d-name button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
